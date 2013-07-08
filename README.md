@@ -6,11 +6,11 @@ generates easily recognizable ids for logs and such.
 
 `npm install animal-id`
 
-`var animal = require('animal-id');`
-
 then:
 
 ```javascript
+var animal = require('animal-id');
+
 // generate an adjective-animal pair
 animal.getId(); // angry-buzzard
 // ...with a prefix
@@ -23,7 +23,7 @@ animal.getUuid('animal'); // animal-angry-buzzard-198fb2de-8ec7-4cf2-be5c-244662
 // or use your own adjectives/animals/separating strings
 animal.useAnimals(['buzzard', 'human']);
 animal.useAdjectives(['happy', 'angry']);
-animal.useSeparator('_'); // use an underscore instead
+animal.useSeparator('_'); // use an underscore instead of a dash
 ```
 
 Pretty blatantly uses the excellent [node-uuid](https://github.com/broofa/node-uuid) for uuid generation.
