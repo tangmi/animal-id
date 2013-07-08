@@ -1,0 +1,26 @@
+{
+	"name": "animal-id",
+	"version": "0.0.1",
+	"author": "Michael Tang <michael@conceptquanta.com>",
+	"description": "an generator for easily recognizable ids",
+	"scripts": {
+		"test": "node ./test.js"
+	},
+	"main": "./animal-id",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tangmi/animal-id.git"
+	},
+	"keywords": [
+			"id",
+			"name",
+			"generator"
+	],
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.6"
+	},
+	"dependencies": {
+		"node-uuid": "~1.4.0"
+	}
+}
